@@ -1,0 +1,410 @@
+/*
+  Author: Varun Tyagi | AdeptCoders
+  Author URI: www.adeptcoders.com 
+*/
+
+@font-face {
+  font-family:'ACaslonPro-SemiboldItalic';
+  src: url('fonts/ACaslonPro-SemiboldItalic_gdi.eot');
+  src: url('fonts/ACaslonPro-SemiboldItalic_gdid41d.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ACaslonPro-SemiboldItalic_gdi.woff') format('woff'),
+    url('fonts/ACaslonPro-SemiboldItalic_gdi.ttf') format('truetype'),
+    url('http://www.travelogyindia.com/missing.html#ACaslonPro-SemiboldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+
+body {
+  background: url("images/bg-body.png") center top no-repeat;
+  color: #999999;
+  font-family: "Roboto", serif;
+  background-size: cover;
+  }
+
+/*, url("images/bg-body-plane.png") center top repeat-x*/
+
+img {
+  max-width: 100%;
+  }
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  padding: 0px;
+  }
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  }
+
+a:hover {
+  text-decoration: none;
+  }
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+  }
+
+
+/*---------------- header ------------------*/
+
+header {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background:#fff;
+  margin: 0px;
+  padding: 10px 0px;
+  display: block; 
+  }
+
+.logo-header {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  }
+
+.contact-header {
+  margin: 0px;
+  padding-top: 0px;
+  float: right;
+  width: auto;
+  background: url(images/contact-header.png) no-repeat left center;
+  padding-left: 50px;
+  }
+
+.contact-header .contact-number {
+  font-size: 14px;
+  color: #ad1818;
+  text-transform: uppercase;
+  font-weight: normal;
+
+}
+
+.contact-header .contact-number span {
+  font-size: 16px;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+
+
+}
+
+
+section.easy-secure {
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: block;
+  }
+
+.easy-secure-left {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #a6a6a6
+  }
+
+.easy-secure-left span {
+  margin: 0px;
+  padding: 16px 12px;
+  display: block;
+  clear: both;
+  width: 100%;
+  background: #ad1818;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px 4px 0px 0px;
+  text-transform: uppercase;
+  }
+
+.easy-secure-left label i {
+  color: #ad1818;
+  font-style: normal;
+  margin: 0px 0px 0px 3px;
+  }
+
+.padding-right {
+  padding-right: 8px!important;
+  }
+
+.padding-left {
+  padding-left: 8px!important;
+  }
+
+.easy-secure-left form {
+  margin: 0px;
+  padding: 15px;
+  }
+
+.easy-secure-left form label {
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+  font-size: 12px;
+  color: #454545;
+  font-weight: 400;
+  }
+
+.easy-secure-left form input[type="text"] {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 6px;
+  font-size: 12px;
+  width: 100%;
+  float: left;
+  border:1px solid #8d8d8d;
+  border-radius: 3px;
+  height: 38px;
+  color: #8d8d8d;
+  }
+
+.align-center {
+  text-align: center;
+  }
+
+.easy-secure-left form input[type="button"], .easy-secure-left form input[type="submit"] {
+  background: #ad1818 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0px 0px 0px;
+  padding: 10px 21px;
+  text-transform: uppercase;
+  }
+
+.easy-secure-right {
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  float: left;
+  width: 100%;
+
+  }
+
+.easy-secure-right h1 {
+  margin: 100px 0px 40px 0px;
+  padding: 0px;
+  float: left;
+  color: #ad1818;
+  font-size: 40px;
+  font-family:'ACaslonPro-SemiboldItalic';
+  }
+
+.easy-secure-right span {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  color: #ad1818;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  }
+
+.easy-secure-right ul {
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+  list-style: none;
+  float: left;
+  width: 100%;
+  }
+
+.easy-secure-right ul li {
+  margin: 0 0 8px;
+  padding: 0px 0px 0px 10px;
+  list-style: none;
+  color: #1c1c1c;
+  font-size: 14px;
+  font-weight: 500;
+  background: url(images/bg-points.png) left 3px no-repeat;
+  }
+
+ul.icons-pay {
+  margin-top: 140px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  width: 100%;
+  }
+
+ul.icons-pay li {
+  margin: 0px 5px 0px 0px;
+  padding: 0px;
+  display: inline-block;
+  }  
+
+section.strip-red {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background: #ad1818;
+  text-align: center;
+  }
+
+.strip-red-inner {
+  margin: 0px auto;
+  padding: 0px;
+  width: 80%;
+  text-align: center;
+  }
+
+.strip-red-inner span {
+  margin: 0px 1px 0px 0px;
+  color: #fff;
+  background: #bd2a2a;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 24%;
+  float: left;
+  text-align: left;
+  }
+
+.strip-red-inner span.easy {
+  background: #bd2a2a url("images/icon-easy.png") no-repeat scroll 29px 20px;
+  padding: 18px 0 18px 71px;
+  }
+
+.strip-red-inner span.fast {
+  background: #bd2a2a url("images/icon-fast.png") no-repeat scroll 32px 16px;
+  padding: 18px 0 18px 77px;
+  }
+
+.strip-red-inner span.simple {
+  background: #bd2a2a url("images/icon-simple.png") no-repeat scroll 27px 20px;
+  padding: 18px 0 18px 67px;
+  }
+
+.strip-red-inner span.secure {
+  background: #bd2a2a url("images/icon-secure.png") no-repeat scroll 32px 20px;
+  padding: 18px 0 18px 61px;
+  }
+
+footer {
+  margin: 0px;
+  padding: 20px 0px;
+  display: block;
+  background: #f0f0f0;
+  }
+
+footer b {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  color: #282828;
+  font-size: 12px;
+  display: block;
+  clear: both;
+  }
+
+footer p {
+  margin: 0px;
+  padding: 0px;
+  color: #282828;
+  font-size: 12px;
+  display: block;
+  clear: both;
+  }
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 240px) and (max-width: 600px) {
+  section.easy-secure {
+    padding-bottom: 30px;
+    padding-top: 24px;
+    }
+
+  .easy-secure-left span {
+    font-size: 14px;
+    }
+
+  .padding-right {
+    padding-right: 15px!important;
+    }
+
+  .padding-left {
+    padding-left: 15px!important;
+    }
+
+  .easy-secure-right {
+    margin: 0;
+    padding: 30px 0 0;
+    }
+
+  .easy-secure-right h1 {
+    font-size: 32px;
+    margin: 0 0 16px;
+    }
+
+  ul.icons-pay {
+    margin-top: 20px;
+    text-align: center;
+    }
+
+  .strip-red-inner span {
+    margin: 1px 0 0;
+    width: 100%;
+    }
+  }
+
+@media (min-width: 601px) and (max-width: 767px) {
+  section.easy-secure {
+    padding-bottom: 30px;
+    padding-top: 24px;
+    }
+
+  .easy-secure-left span {
+    font-size: 14px;
+    }
+
+  .padding-right {
+    padding-right: 15px!important;
+    }
+
+  .padding-left {
+    padding-left: 15px!important;
+    }
+
+  .easy-secure-right {
+    margin: 0;
+    padding: 30px 0 0;
+    }
+
+  .easy-secure-right h1 {
+    font-size: 32px;
+    margin: 0 0 16px;
+    }
+
+  ul.icons-pay {
+    margin-top: 20px;
+    }
+
+  .strip-red-inner span {
+    margin: 0px 1px 1px 0px;
+    width: 49.5%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .padding-right {
+    padding-right: 5px!important;
+    }
+
+  .padding-left {
+    padding-left: 5px!important;
+    }
+  }
